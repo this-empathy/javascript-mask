@@ -1,6 +1,6 @@
   
 {
-    "name": "javascript-mask",
+    "name": "@this-empathy/javascript-mask",
     "version": "0.0.1",
     "description": "A package to aplly masks on input data with vanilla js",
     "main": "index.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/the-cyg/javascript-mask"
+      "url": "git+https://github.com/this-empathy/javascript-mask"
     },
     "keywords": [
       "js",
@@ -23,9 +23,9 @@
     "author": "Lucas Yarid & Giovanni Spolidorio & Paulo Calixto",
     "license": "BSD",
     "bugs": {
-      "url": "https://github.com/the-cyg/javascript-mask/issues"
+      "url": "https://github.com/this-empathy/javascript-mask/issues"
     },
-    "homepage": "https://github.com/the-cyg/javascript-mask#readme",
+    "homepage": "https://github.com/this-empathy/javascript-mask#readme",
     "devDependencies": {
       "@babel/preset-env": "^7.6.0",
       "jest": "^24.9.0"
