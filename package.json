@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "description": "A package to aplly masks on input data with vanilla js",
     "main": "index.js",
+    "types": "index.d.ts",
     "scripts": {
       "test": "jest"
     },
