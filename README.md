@@ -8,11 +8,16 @@ A package to validate strings and input data with vanilla js.
 Install via npm:
 
 ```javascript
- npm install javascript-mask
+ npm install @this-empathy/javascript-mask
 ```
 Install via yarn:
 
 ```javascript
- yarn add javascript-mask
+ yarn add @this-empathy/javascript-mask
 ```
 
+### How to use
+#### Import
+```javascript
+import Mask from '@this-empathy/javascript-mask'
+```
