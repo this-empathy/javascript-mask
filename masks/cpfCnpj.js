@@ -1,6 +1,7 @@
-import cpf from './cpf'
-import cnpj from './cnpj'
+import cpf from "./cpf";
+import cnpj from "./cnpj";
 
-export default(value) =>{
-    return value.length < 15 ? cpf(value) : cnpj(value)  
-}
+export default (value) => {
+  value = value.toString();
+  return value.length < 14 ? cpf(value) : cnpj(value);
+};

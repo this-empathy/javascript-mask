@@ -1,4 +1,5 @@
-export default(value) =>{
+export default(value) => {
+    value = value.toString()
     value = value.replace(/\D/g, '')
     value = value.replace(/(\d{2})(\d)/, '$1:$2')
     return value
