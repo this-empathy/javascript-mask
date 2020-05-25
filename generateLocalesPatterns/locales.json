@@ -1,0 +1,1 @@
+{"en_US":{"name":"English (United States)","code":"en-US","dateFormat":"() => item.value.length === 1 ? 'M' : 'MM'/() => item.value.length === 1 ? 'D' : 'DD'/YYYY"},"zu_ZA":{"name":"Zulu (South Africa)","code":"zu-ZA","dateFormat":"YYYY-() => item.value.length === 1 ? 'M' : 'MM'-() => item.value.length === 1 ? 'D' : 'DD'"}}
