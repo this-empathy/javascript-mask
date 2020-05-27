@@ -1,4 +1,11 @@
 declare module "@this-empathy/javascript-mask" {
+
+    export interface data_res {
+        value: string;
+        opt: {literal: string, format: string}
+    }
+
+
     export function account (value: string): string;
     export function agency (value: string): string;
     export function carPlate (value: string): string;
@@ -6,7 +13,7 @@ declare module "@this-empathy/javascript-mask" {
     export function cnpj (value: string): string;
     export function cpf (value: string): string;
     export function cpfCnpj (value: string): string;
-    export function date (value: string): string;
+    export function date (value: string, locale?: string): data_res;
     export function hour (value: string): string;
     export function letters (value: string): string;
     export function millisecondsToDate (value: string): string;
