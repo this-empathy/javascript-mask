@@ -27,7 +27,7 @@ import Mask from '@this-empathy/javascript-mask'
 ##### Date
 
 ```javascript
-Validator.date(value, locale)
+Mask.date(value, locale)
 
 | Params | required | Default value |
 |--------|----------|---------------|
