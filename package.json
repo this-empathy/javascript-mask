@@ -1,11 +1,12 @@
 {
   "name": "@this-empathy/javascript-mask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to aplly masks on input data with vanilla js",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "locales": "node ./generateLocalesPatterns/index.js"
   },
   "repository": {
     "type": "git",

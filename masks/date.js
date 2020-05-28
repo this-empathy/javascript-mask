@@ -1,6 +1,18 @@
-export default(value) =>{
-    value = value.replace(/\D/g, '')
-    value = value.replace(/(\d{2})(\d)/, '$1/$2')
-    value = value.replace(/(\d{2})(\d)/, '$1/$2')
-    return value
+import Locales from '../locales/locales.json'
+import { toPattern } from '../utils/utils'
+
+export default (value, locale = 'pt_BR') => {
+	locale = locale.replace('-', '_')
+	const dateFormat = Locales[locale] ? Locales[locale].dateFormat : Locales.pt_BR.dateFormat
+	const literal = /\W|_/g.exec(dateFormat)[0]
+
+	const opt = {
+		literal: literal,
+		format: dateFormat,
+		era: Locales[locale] ? Locales[locale].era : Locales.pt_BR.era,
+	}
+
+	// 9 is the code with represent just numbers on toPattern function
+	const pattern = dateFormat.replace(/[A-Z]/g, '9')
+	return { value: toPattern(value, pattern), opt }
 }
