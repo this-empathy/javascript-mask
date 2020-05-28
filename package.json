@@ -5,7 +5,8 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "locales": "node ./generateLocalesPatterns/index.js"
   },
   "repository": {
     "type": "git",
