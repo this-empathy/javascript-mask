@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [1.2.0] - 2020-05-19
+
+### Added
+ - Internationalization of date masks
+### Changed
+### Removed
+
 ## [1.0.0] - 2020-05-19
 
 ### Added
