@@ -6,7 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
-## [1.2.0] - 2020-05-19
+## [1.2.1] - 2020-05-29
+
+### Added
+ - Splited date position
+### Changed
+### Removed
+
+## [1.2.0] - 2020-05-28
 
 ### Added
  - Internationalization of date masks
