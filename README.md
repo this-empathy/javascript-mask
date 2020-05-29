@@ -28,14 +28,12 @@ import Mask from '@this-empathy/javascript-mask'
 
 ```javascript
 Mask.date(value, locale)
+```
 
 | Params | required | Default value |
 |--------|----------|---------------|
 | value  | true     | ""            |
 | locale | false    | pt-BR         |
-
-```
-
 
 ##### Locale 
 Locale that should be used by the mask. Can be any [IETF language tag.](https://en.wikipedia.org/wiki/IETF_language_tag)
