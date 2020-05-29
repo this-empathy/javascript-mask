@@ -3,16 +3,24 @@ import { toPattern } from '../utils/utils'
 
 export default (value, locale = 'pt_BR') => {
 	locale = locale.replace('-', '_')
-	const dateFormat = Locales[locale] ? Locales[locale].dateFormat : Locales.pt_BR.dateFormat
-	const literal = /\W|_/g.exec(dateFormat)[0]
+	const format = Locales[locale] ? Locales[locale] : Locales.pt_BR
 
+	console.log(format);
+	
+
+	const literal = /\W|_/g.exec(format.dateFormat)[0]
 	const opt = {
 		literal: literal,
-		format: dateFormat,
-		era: Locales[locale] ? Locales[locale].era : Locales.pt_BR.era,
+		format: format.dateFormat,
+		era: format.era,
+		positions: format.splitedPositions,
 	}
 
 	// 9 is the code with represent just numbers on toPattern function
-	const pattern = dateFormat.replace(/[A-Z]/g, '9')
+	const pattern = format.dateFormat.replace(/[A-Z]/g, '9')
+
+	console.log(opt);
+	
+
 	return { value: toPattern(value, pattern), opt }
 }
