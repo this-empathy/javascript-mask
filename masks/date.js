@@ -18,9 +18,5 @@ export default (value, locale = 'pt_BR') => {
 
 	// 9 is the code with represent just numbers on toPattern function
 	const pattern = format.dateFormat.replace(/[A-Z]/g, '9')
-
-	console.log(opt);
-	
-
 	return { value: toPattern(value, pattern), opt }
 }
