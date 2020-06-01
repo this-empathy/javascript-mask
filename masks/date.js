@@ -1,5 +1,5 @@
-import Locales from '../locales/locales.json'
 import { toPattern } from '../utils/utils'
+import Locales from '@this-empathy/locales-patterns'
 
 export default (value, locale = 'pt_BR') => {
 	locale = locale.replace('-', '_')
