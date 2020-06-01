@@ -918,6 +918,13 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@this-empathy/locales-patterns@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@this-empathy/locales-patterns/-/locales-patterns-1.0.0.tgz#67e4f7f4d3bfb784ad672767f16a7fc6ed4409e7"
+  integrity sha512-v9FHeq3dCkNDoF9DlnrloR75rpLbS9ktcYqisddf+FTbIUSPJXdLbGbJy0ZCEz4Qwo0XFdGND0rv4Lu2NMwLmA==
+  dependencies:
+    np "^6.1.0"
+
 "@types/babel__core@^7.1.0":
   version "7.1.7"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.7.tgz#1dacad8840364a57c98d0dd4855c6dd3752c6b89"
