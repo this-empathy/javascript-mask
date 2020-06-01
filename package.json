@@ -5,8 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest",
-    "locales": "node ./generateLocalesPatterns/index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -32,6 +31,7 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
+    "@this-empathy/locales-patterns": "^1.0.0",
     "np": "^6.1.0"
   }
 }
