@@ -5,8 +5,6 @@ export default (value, locale = 'pt_BR') => {
 	locale = locale.replace('-', '_')
 	const format = Locales[locale] ? Locales[locale] : Locales.pt_BR
 
-	console.log(format)
-
 	const literal = /\W|_/g.exec(format.dateFormat)[0]
 	const opt = {
 		literal: literal,
