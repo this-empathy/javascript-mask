@@ -10,7 +10,7 @@ export default (value, locale = 'pt_BR') => {
 		literal: literal,
 		format: format.dateFormat,
 		era: format.era,
-		positions: format.splitedPositions,
+		positions: format.dateSplitedPositions,
 	}
 
 	// 9 is the code with represent just numbers on toPattern function
