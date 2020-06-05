@@ -1,4 +1,4 @@
-import mask from '../../index.js'
+import mask from '../../src/index.js'
 
 describe('milliseconds to date and hour', () => {
   test('Mascara de Milesegundos para data e hora', () => {

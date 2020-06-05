@@ -1,4 +1,4 @@
-import mask from '../../index.js'
+import mask from '../../src/index.js'
 
 describe('Car Plate', () => {
   test('Mascara para Placa de Carros', () => {

@@ -1,5 +1,6 @@
 # Coverage directory used by tools like istanbul
 coverage
+.nyc_output
 
 # Dependency directories
 node_modules
@@ -8,7 +9,7 @@ node_modules
 package-lock.json
 yarn.lock
 
-# Lib
-lib
-
-.DS_Store
+# project files
+src
+.babelrc
+.gitignore

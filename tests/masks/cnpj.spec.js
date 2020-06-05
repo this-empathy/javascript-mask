@@ -1,4 +1,4 @@
-import mask from '../../index.js'
+import mask from '../../src/index.js'
 
 describe('CNPJ', () => {
   test('Mascara de CNPJ', () => {
