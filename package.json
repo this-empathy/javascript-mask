@@ -36,8 +36,5 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "np": "^6.1.0"
-  },
-  "babel": {
-    "presets": ["es2015"]
   }
 }
