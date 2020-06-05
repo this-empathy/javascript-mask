@@ -1,4 +1,4 @@
-import mask from '../../index.js'
+import mask from '../../src/index.js'
 
 describe('Numbers', () => {
   test('Mascar só para numeros', () => {

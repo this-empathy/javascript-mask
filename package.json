@@ -2,10 +2,11 @@
   "name": "@this-empathy/javascript-mask",
   "version": "1.1.8",
   "description": "A package to apply masks on input data with vanilla js",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,11 @@
   },
   "dependencies": {
     "@this-empathy/locales-patterns": "^1.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "np": "^6.1.0"
+  },
+  "babel": {
+    "presets": ["es2015"]
   }
 }

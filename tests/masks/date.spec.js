@@ -1,4 +1,4 @@
-import mask from '../../index.js'
+import mask from '../../src/index.js'
 
 describe('Date', () => {
   test('Verify if all the props of the return are not Undefined', () => {
